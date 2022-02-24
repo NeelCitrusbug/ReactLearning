@@ -4,6 +4,10 @@ import Greet from './components/Greet'
 import Hello from './components/Hello'
 import FunctionClick  from './components/FunctionClick'
 import NameList from './components/NameList'
+import Stylesheet from './components/Stylesheet'
+import Inline from './components/Inline'
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
         <Greet name="Diana" heroName="Wonder Woman"/> */}
         {/* <Hello /> */}
         {/* <FunctionClick/> */}
-        <NameList/>
+        {/* <NameList/> */}
+        {/* <Stylesheet primary={true}/> */}
+        <Inline/>
+        <h1 className="error">Error</h1>
+        <h1 className={styles.success}>Success</h1>
     </div>
   );
 }
