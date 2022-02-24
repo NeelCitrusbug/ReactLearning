@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet'
 import Hello from './components/Hello'
-import FunctionClick  from './components/FunctionClick';
+import FunctionClick  from './components/FunctionClick'
+import NameList from './components/NameList'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           </Greet>
         <Greet name="Diana" heroName="Wonder Woman"/> */}
         {/* <Hello /> */}
-        <FunctionClick/>
+        {/* <FunctionClick/> */}
+        <NameList/>
     </div>
   );
 }
