@@ -8,6 +8,8 @@ import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline'
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import FragmentDemo from './components/FragmentDemo';
+import Columns from './components/Columns'
 
 function App() {
   return (
@@ -23,9 +25,12 @@ function App() {
         {/* <FunctionClick/> */}
         {/* <NameList/> */}
         {/* <Stylesheet primary={true}/> */}
-        <Inline/>
+        {/* <Inline/>
         <h1 className="error">Error</h1>
-        <h1 className={styles.success}>Success</h1>
+        <h1 className={styles.success}>Success</h1> */}
+
+        {/* <FragmentDemo /> */}
+        <Columns />
     </div>
   );
 }
