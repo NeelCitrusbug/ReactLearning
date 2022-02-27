@@ -10,6 +10,7 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import FragmentDemo from './components/FragmentDemo';
 import Columns from './components/Columns'
+import ParentComp from './components/ParentComp'
 
 function App() {
   return (
@@ -30,7 +31,9 @@ function App() {
         <h1 className={styles.success}>Success</h1> */}
 
         {/* <FragmentDemo /> */}
-        <Columns />
+        {/* <Columns /> */}
+
+        <ParentComp />
     </div>
   );
 }
